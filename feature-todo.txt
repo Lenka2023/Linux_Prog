@@ -2,4 +2,7 @@ git checkout v1.1.5
 git checkout -b issue-1234
 git push origin issue-1234
 touch feature-todo.txt
-$ printf  //
+$ printf  "// TODO"> feature-todo.txt
+git add feature-todo.txt
+git commit -m "Changes for feature-todo.txt"
+git push -u origin issue-1234
